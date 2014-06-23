@@ -116,6 +116,12 @@
 	stringSize = [discoveryYearString sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint+80);
 	[discoveryYearString drawAtPoint:point withFont:font];
+    
+    // draw the Electronegativity
+    NSString *ElectronegativityString = [NSString stringWithFormat:@"Electronegativity: %@", self.element.Electronegativity];
+    stringSize = [ElectronegativityString sizeWithFont:font];
+    point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint+100);
+    [ElectronegativityString drawAtPoint:point withFont:font];
 }
 
 

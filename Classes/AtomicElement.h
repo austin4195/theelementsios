@@ -60,6 +60,7 @@
 @property (nonatomic, strong) NSNumber *group;
 @property (nonatomic, strong) NSNumber *period;
 @property (nonatomic, strong) NSString *discoveryYear;
+@property (nonatomic, strong) NSNumber *Electronegativity;
 
 - (id)initWithDictionary:(NSDictionary *)aDictionary;
 

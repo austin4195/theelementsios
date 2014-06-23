@@ -66,6 +66,7 @@
 		self.atomicWeight = [aDictionary valueForKey:@"atomicWeight"];
 		self.discoveryYear = [aDictionary valueForKey:@"discoveryYear"];
 		self.radioactive = [[aDictionary valueForKey:@"radioactive"] boolValue];
+        self.Electronegativity = [aDictionary valueForKey:@"Electronegativity"];
 		self.name = [aDictionary valueForKey:@"name"];
 		self.symbol = [aDictionary valueForKey:@"symbol"];
 		self.state = [aDictionary valueForKey:@"state"];

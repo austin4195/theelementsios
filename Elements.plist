@@ -747,6 +747,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>4</real>
 		<key>atomicNumber</key>
 		<integer>9</integer>
 		<key>atomicWeight</key>
