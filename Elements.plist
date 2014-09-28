@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.1</real>
 		<key>atomicNumber</key>
 		<integer>89</integer>
 		<key>atomicWeight</key>
@@ -27,6 +29,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.61</real>
 		<key>atomicNumber</key>
 		<integer>13</integer>
 		<key>atomicWeight</key>
@@ -51,6 +55,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.13</real>
 		<key>atomicNumber</key>
 		<integer>95</integer>
 		<key>atomicWeight</key>
@@ -75,6 +81,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.05</real>
 		<key>atomicNumber</key>
 		<integer>51</integer>
 		<key>atomicWeight</key>
@@ -99,6 +107,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>18</integer>
 		<key>atomicWeight</key>
@@ -123,6 +133,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.18</real>
 		<key>atomicNumber</key>
 		<integer>33</integer>
 		<key>atomicWeight</key>
@@ -147,6 +159,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.2</real>
 		<key>atomicNumber</key>
 		<integer>85</integer>
 		<key>atomicWeight</key>
@@ -171,6 +185,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.89</real>
 		<key>atomicNumber</key>
 		<integer>56</integer>
 		<key>atomicWeight</key>
@@ -195,6 +211,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>97</integer>
 		<key>atomicWeight</key>
@@ -219,6 +237,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.57</real>
 		<key>atomicNumber</key>
 		<integer>4</integer>
 		<key>atomicWeight</key>
@@ -243,6 +263,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.02</real>
 		<key>atomicNumber</key>
 		<integer>83</integer>
 		<key>atomicWeight</key>
@@ -267,6 +289,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>107</integer>
 		<key>atomicWeight</key>
@@ -291,6 +315,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.04</real>
 		<key>atomicNumber</key>
 		<integer>5</integer>
 		<key>atomicWeight</key>
@@ -315,6 +341,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.96</real>
 		<key>atomicNumber</key>
 		<integer>35</integer>
 		<key>atomicWeight</key>
@@ -339,6 +367,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<integer>0</integer>
 		<key>atomicNumber</key>
 		<integer>48</integer>
 		<key>atomicWeight</key>
@@ -363,6 +393,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1</real>
 		<key>atomicNumber</key>
 		<integer>20</integer>
 		<key>atomicWeight</key>
@@ -387,6 +419,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>98</integer>
 		<key>atomicWeight</key>
@@ -411,6 +445,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.55</real>
 		<key>atomicNumber</key>
 		<integer>6</integer>
 		<key>atomicWeight</key>
@@ -435,6 +471,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.12</real>
 		<key>atomicNumber</key>
 		<integer>58</integer>
 		<key>atomicWeight</key>
@@ -459,6 +497,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.79</real>
 		<key>atomicNumber</key>
 		<integer>55</integer>
 		<key>atomicWeight</key>
@@ -483,6 +523,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>3.16</real>
 		<key>atomicNumber</key>
 		<integer>17</integer>
 		<key>atomicWeight</key>
@@ -507,6 +549,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.66</real>
 		<key>atomicNumber</key>
 		<integer>24</integer>
 		<key>atomicWeight</key>
@@ -531,6 +575,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.88</real>
 		<key>atomicNumber</key>
 		<integer>27</integer>
 		<key>atomicWeight</key>
@@ -555,6 +601,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.9</real>
 		<key>atomicNumber</key>
 		<integer>29</integer>
 		<key>atomicWeight</key>
@@ -579,6 +627,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.28</real>
 		<key>atomicNumber</key>
 		<integer>96</integer>
 		<key>atomicWeight</key>
@@ -603,6 +653,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>105</integer>
 		<key>atomicWeight</key>
@@ -627,6 +679,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.22</real>
 		<key>atomicNumber</key>
 		<integer>66</integer>
 		<key>atomicWeight</key>
@@ -651,6 +705,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>99</integer>
 		<key>atomicWeight</key>
@@ -675,6 +731,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.24</real>
 		<key>atomicNumber</key>
 		<integer>68</integer>
 		<key>atomicWeight</key>
@@ -699,6 +757,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.2</real>
 		<key>atomicNumber</key>
 		<integer>63</integer>
 		<key>atomicWeight</key>
@@ -723,6 +783,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>100</integer>
 		<key>atomicWeight</key>
@@ -773,6 +835,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.7</real>
 		<key>atomicNumber</key>
 		<integer>87</integer>
 		<key>atomicWeight</key>
@@ -797,6 +861,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.2</real>
 		<key>atomicNumber</key>
 		<integer>64</integer>
 		<key>atomicWeight</key>
@@ -821,6 +887,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.81</real>
 		<key>atomicNumber</key>
 		<integer>31</integer>
 		<key>atomicWeight</key>
@@ -845,6 +913,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.01</real>
 		<key>atomicNumber</key>
 		<integer>32</integer>
 		<key>atomicWeight</key>
@@ -869,6 +939,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.54</real>
 		<key>atomicNumber</key>
 		<integer>79</integer>
 		<key>atomicWeight</key>
@@ -893,6 +965,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>72</integer>
 		<key>atomicWeight</key>
@@ -917,6 +991,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>108</integer>
 		<key>atomicWeight</key>
@@ -941,6 +1017,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>2</integer>
 		<key>atomicWeight</key>
@@ -965,6 +1043,8 @@
 		<integer>1</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.23</real>
 		<key>atomicNumber</key>
 		<integer>67</integer>
 		<key>atomicWeight</key>
@@ -989,6 +1069,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.2</real>
 		<key>atomicNumber</key>
 		<integer>1</integer>
 		<key>atomicWeight</key>
@@ -1013,6 +1095,8 @@
 		<integer>1</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.78</real>
 		<key>atomicNumber</key>
 		<integer>49</integer>
 		<key>atomicWeight</key>
@@ -1037,6 +1121,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.66</real>
 		<key>atomicNumber</key>
 		<integer>53</integer>
 		<key>atomicWeight</key>
@@ -1061,6 +1147,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.2</real>
 		<key>atomicNumber</key>
 		<integer>77</integer>
 		<key>atomicWeight</key>
@@ -1085,6 +1173,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.83</real>
 		<key>atomicNumber</key>
 		<integer>26</integer>
 		<key>atomicWeight</key>
@@ -1109,6 +1199,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>3</real>
 		<key>atomicNumber</key>
 		<integer>36</integer>
 		<key>atomicWeight</key>
@@ -1133,6 +1225,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.1</real>
 		<key>atomicNumber</key>
 		<integer>57</integer>
 		<key>atomicWeight</key>
@@ -1157,6 +1251,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>103</integer>
 		<key>atomicWeight</key>
@@ -1181,6 +1277,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.87</real>
 		<key>atomicNumber</key>
 		<integer>82</integer>
 		<key>atomicWeight</key>
@@ -1205,6 +1303,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.98</real>
 		<key>atomicNumber</key>
 		<integer>3</integer>
 		<key>atomicWeight</key>
@@ -1229,6 +1329,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.27</real>
 		<key>atomicNumber</key>
 		<integer>71</integer>
 		<key>atomicWeight</key>
@@ -1253,6 +1355,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.31</real>
 		<key>atomicNumber</key>
 		<integer>12</integer>
 		<key>atomicWeight</key>
@@ -1277,6 +1381,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.55</real>
 		<key>atomicNumber</key>
 		<integer>25</integer>
 		<key>atomicWeight</key>
@@ -1301,6 +1407,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>109</integer>
 		<key>atomicWeight</key>
@@ -1325,6 +1433,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>101</integer>
 		<key>atomicWeight</key>
@@ -1349,6 +1459,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2</real>
 		<key>atomicNumber</key>
 		<integer>80</integer>
 		<key>atomicWeight</key>
@@ -1373,6 +1485,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.16</real>
 		<key>atomicNumber</key>
 		<integer>42</integer>
 		<key>atomicWeight</key>
@@ -1397,6 +1511,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.14</real>
 		<key>atomicNumber</key>
 		<integer>60</integer>
 		<key>atomicWeight</key>
@@ -1421,6 +1537,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>10</integer>
 		<key>atomicWeight</key>
@@ -1445,6 +1563,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.36</real>
 		<key>atomicNumber</key>
 		<integer>93</integer>
 		<key>atomicWeight</key>
@@ -1469,6 +1589,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.91</real>
 		<key>atomicNumber</key>
 		<integer>28</integer>
 		<key>atomicWeight</key>
@@ -1493,6 +1615,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.6</real>
 		<key>atomicNumber</key>
 		<integer>41</integer>
 		<key>atomicWeight</key>
@@ -1517,6 +1641,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>3.04</real>
 		<key>atomicNumber</key>
 		<integer>7</integer>
 		<key>atomicWeight</key>
@@ -1541,6 +1667,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>102</integer>
 		<key>atomicWeight</key>
@@ -1565,6 +1693,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.2</real>
 		<key>atomicNumber</key>
 		<integer>76</integer>
 		<key>atomicWeight</key>
@@ -1589,6 +1719,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>3.44</real>
 		<key>atomicNumber</key>
 		<integer>8</integer>
 		<key>atomicWeight</key>
@@ -1613,6 +1745,8 @@
 		<integer>2</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.2</real>
 		<key>atomicNumber</key>
 		<integer>46</integer>
 		<key>atomicWeight</key>
@@ -1637,6 +1771,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.19</real>
 		<key>atomicNumber</key>
 		<integer>15</integer>
 		<key>atomicWeight</key>
@@ -1661,6 +1797,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.28</real>
 		<key>atomicNumber</key>
 		<integer>78</integer>
 		<key>atomicWeight</key>
@@ -1685,6 +1823,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.28</real>
 		<key>atomicNumber</key>
 		<integer>94</integer>
 		<key>atomicWeight</key>
@@ -1709,6 +1849,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2</real>
 		<key>atomicNumber</key>
 		<integer>84</integer>
 		<key>atomicWeight</key>
@@ -1733,6 +1875,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.82</real>
 		<key>atomicNumber</key>
 		<integer>19</integer>
 		<key>atomicWeight</key>
@@ -1757,6 +1901,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.13</real>
 		<key>atomicNumber</key>
 		<integer>59</integer>
 		<key>atomicWeight</key>
@@ -1781,6 +1927,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.13</real>
 		<key>atomicNumber</key>
 		<integer>61</integer>
 		<key>atomicWeight</key>
@@ -1805,6 +1953,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.5</real>
 		<key>atomicNumber</key>
 		<integer>91</integer>
 		<key>atomicWeight</key>
@@ -1829,6 +1979,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.9</real>
 		<key>atomicNumber</key>
 		<integer>88</integer>
 		<key>atomicWeight</key>
@@ -1853,6 +2005,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.2</real>
 		<key>atomicNumber</key>
 		<integer>86</integer>
 		<key>atomicWeight</key>
@@ -1877,6 +2031,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.9</real>
 		<key>atomicNumber</key>
 		<integer>75</integer>
 		<key>atomicWeight</key>
@@ -1901,6 +2057,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.28</real>
 		<key>atomicNumber</key>
 		<integer>45</integer>
 		<key>atomicWeight</key>
@@ -1925,6 +2083,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.82</real>
 		<key>atomicNumber</key>
 		<integer>37</integer>
 		<key>atomicWeight</key>
@@ -1949,6 +2109,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.2</real>
 		<key>atomicNumber</key>
 		<integer>44</integer>
 		<key>atomicWeight</key>
@@ -1973,6 +2135,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>104</integer>
 		<key>atomicWeight</key>
@@ -1997,6 +2161,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.17</real>
 		<key>atomicNumber</key>
 		<integer>62</integer>
 		<key>atomicWeight</key>
@@ -2021,6 +2187,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.36</real>
 		<key>atomicNumber</key>
 		<integer>21</integer>
 		<key>atomicWeight</key>
@@ -2045,6 +2213,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>106</integer>
 		<key>atomicWeight</key>
@@ -2069,6 +2239,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.55</real>
 		<key>atomicNumber</key>
 		<integer>34</integer>
 		<key>atomicWeight</key>
@@ -2093,6 +2265,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.9</real>
 		<key>atomicNumber</key>
 		<integer>14</integer>
 		<key>atomicWeight</key>
@@ -2117,6 +2291,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.93</real>
 		<key>atomicNumber</key>
 		<integer>47</integer>
 		<key>atomicWeight</key>
@@ -2141,6 +2317,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.93</real>
 		<key>atomicNumber</key>
 		<integer>11</integer>
 		<key>atomicWeight</key>
@@ -2165,6 +2343,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>0.95</real>
 		<key>atomicNumber</key>
 		<integer>38</integer>
 		<key>atomicWeight</key>
@@ -2189,6 +2369,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.58</real>
 		<key>atomicNumber</key>
 		<integer>16</integer>
 		<key>atomicWeight</key>
@@ -2213,6 +2395,8 @@
 		<integer>3</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.5</real>
 		<key>atomicNumber</key>
 		<integer>73</integer>
 		<key>atomicWeight</key>
@@ -2237,6 +2421,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.9</real>
 		<key>atomicNumber</key>
 		<integer>43</integer>
 		<key>atomicWeight</key>
@@ -2261,6 +2447,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.1</real>
 		<key>atomicNumber</key>
 		<integer>52</integer>
 		<key>atomicWeight</key>
@@ -2285,6 +2473,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.1</real>
 		<key>atomicNumber</key>
 		<integer>65</integer>
 		<key>atomicWeight</key>
@@ -2309,6 +2499,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.62</real>
 		<key>atomicNumber</key>
 		<integer>81</integer>
 		<key>atomicWeight</key>
@@ -2333,6 +2525,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.3</real>
 		<key>atomicNumber</key>
 		<integer>90</integer>
 		<key>atomicWeight</key>
@@ -2357,6 +2551,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<integer>0</integer>
 		<key>atomicNumber</key>
 		<integer>69</integer>
 		<key>atomicWeight</key>
@@ -2381,6 +2577,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.96</real>
 		<key>atomicNumber</key>
 		<integer>50</integer>
 		<key>atomicWeight</key>
@@ -2405,6 +2603,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.54</real>
 		<key>atomicNumber</key>
 		<integer>22</integer>
 		<key>atomicWeight</key>
@@ -2429,6 +2629,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.36</real>
 		<key>atomicNumber</key>
 		<integer>74</integer>
 		<key>atomicWeight</key>
@@ -2453,6 +2655,8 @@
 		<integer>6</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>112</integer>
 		<key>atomicWeight</key>
@@ -2464,7 +2668,7 @@
 		<key>horizPos</key>
 		<integer>12</integer>
 		<key>name</key>
-		<string>Ununbium</string>
+		<string>Copernicium</string>
 		<key>period</key>
 		<integer>7</integer>
 		<key>radioactive</key>
@@ -2472,11 +2676,13 @@
 		<key>state</key>
 		<string>Artificial</string>
 		<key>symbol</key>
-		<string>Uub</string>
+		<string>Cn</string>
 		<key>vertPos</key>
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>116</integer>
 		<key>atomicWeight</key>
@@ -2488,7 +2694,7 @@
 		<key>horizPos</key>
 		<integer>16</integer>
 		<key>name</key>
-		<string>Ununhexium</string>
+		<string>Livermorium</string>
 		<key>period</key>
 		<integer>7</integer>
 		<key>radioactive</key>
@@ -2496,11 +2702,13 @@
 		<key>state</key>
 		<string>Artificial</string>
 		<key>symbol</key>
-		<string>Uuh</string>
+		<string>Lv</string>
 		<key>vertPos</key>
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>110</integer>
 		<key>atomicWeight</key>
@@ -2512,7 +2720,7 @@
 		<key>horizPos</key>
 		<integer>10</integer>
 		<key>name</key>
-		<string>Ununnilium</string>
+		<string>Darmstadtium</string>
 		<key>period</key>
 		<integer>7</integer>
 		<key>radioactive</key>
@@ -2520,11 +2728,13 @@
 		<key>state</key>
 		<string>Artificial</string>
 		<key>symbol</key>
-		<string>Uun</string>
+		<string>Ds</string>
 		<key>vertPos</key>
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>118</integer>
 		<key>atomicWeight</key>
@@ -2549,6 +2759,8 @@
 		<string>7</string>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>115</integer>
 		<key>atomicWeight</key>
@@ -2573,6 +2785,8 @@
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>114</integer>
 		<key>atomicWeight</key>
@@ -2584,7 +2798,7 @@
 		<key>horizPos</key>
 		<integer>14</integer>
 		<key>name</key>
-		<string>Ununquadium</string>
+		<string>Flerovium</string>
 		<key>period</key>
 		<integer>7</integer>
 		<key>radioactive</key>
@@ -2592,11 +2806,13 @@
 		<key>state</key>
 		<string>Artificial</string>
 		<key>symbol</key>
-		<string>Uuq</string>
+		<string>Fl</string>
 		<key>vertPos</key>
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>117</integer>
 		<key>atomicWeight</key>
@@ -2621,6 +2837,8 @@
 		<string>7</string>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>113</integer>
 		<key>atomicWeight</key>
@@ -2645,6 +2863,8 @@
 		<string>7</string>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<string>Does Not Exist</string>
 		<key>atomicNumber</key>
 		<integer>111</integer>
 		<key>atomicWeight</key>
@@ -2656,7 +2876,7 @@
 		<key>horizPos</key>
 		<integer>11</integer>
 		<key>name</key>
-		<string>Unununium</string>
+		<string>Roentgenium</string>
 		<key>period</key>
 		<integer>7</integer>
 		<key>radioactive</key>
@@ -2664,11 +2884,13 @@
 		<key>state</key>
 		<string>Artificial</string>
 		<key>symbol</key>
-		<string>Uuu</string>
+		<string>Rg</string>
 		<key>vertPos</key>
 		<integer>7</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.38</real>
 		<key>atomicNumber</key>
 		<integer>92</integer>
 		<key>atomicWeight</key>
@@ -2693,6 +2915,8 @@
 		<integer>10</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.63</real>
 		<key>atomicNumber</key>
 		<integer>23</integer>
 		<key>atomicWeight</key>
@@ -2717,6 +2941,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>2.6</real>
 		<key>atomicNumber</key>
 		<integer>54</integer>
 		<key>atomicWeight</key>
@@ -2741,6 +2967,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.1</real>
 		<key>atomicNumber</key>
 		<integer>70</integer>
 		<key>atomicWeight</key>
@@ -2765,6 +2993,8 @@
 		<integer>9</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.22</real>
 		<key>atomicNumber</key>
 		<integer>39</integer>
 		<key>atomicWeight</key>
@@ -2789,6 +3019,8 @@
 		<integer>5</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.65</real>
 		<key>atomicNumber</key>
 		<integer>30</integer>
 		<key>atomicWeight</key>
@@ -2813,6 +3045,8 @@
 		<integer>4</integer>
 	</dict>
 	<dict>
+		<key>Electronegativity</key>
+		<real>1.33</real>
 		<key>atomicNumber</key>
 		<integer>40</integer>
 		<key>atomicWeight</key>
