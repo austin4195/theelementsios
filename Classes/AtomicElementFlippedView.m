@@ -1,14 +1,7 @@
-/*
-Copyright (C) 2015 Apple Inc. All Rights Reserved.
-See LICENSE.txt for this sample’s licensing information
 
-Abstract:
-Displays the Atomic Element information with a link to Wikipedia.
-*/
-
-#import "AtomicElementFlippedView.h"
 #import "AtomicElementView.h"
 #import "AtomicElement.h"
+#import "AtomicElementFlippedView.h"
 
 @interface AtomicElementFlippedView ()
 
@@ -38,7 +31,7 @@ Displays the Atomic Element information with a link to Wikipedia.
 	[self addSubview:self.wikipediaButton];
 }
 
-- (instancetype)initWithFrame:(CGRect)frame {
+- (id)initWithFrame:(CGRect)frame {
     
     if (self = [super initWithFrame:frame]) {
 		[self setAutoresizesSubviews:YES];
@@ -73,58 +66,62 @@ Displays the Atomic Element information with a link to Wikipedia.
 	[[UIColor whiteColor] set];
 	
 	// draw the element number
-	NSDictionary *font = @{NSFontAttributeName: [UIFont boldSystemFontOfSize:32]};
+	UIFont *font = [UIFont boldSystemFontOfSize:32];
 	CGPoint point = CGPointMake(10,5);
-	[[NSString stringWithFormat:@"%@", self.element.atomicNumber] drawAtPoint:point withAttributes:font];
+	[[NSString stringWithFormat:@"%@", self.element.atomicNumber] drawAtPoint:point withFont:font];
 	
 	// draw the element symbol
-	CGSize stringSize = [self.element.symbol sizeWithAttributes:font];
+	CGSize stringSize = [self.element.symbol sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width-10),5);
-	[self.element.symbol drawAtPoint:point withAttributes:font];
+	[self.element.symbol drawAtPoint:point withFont:font];
 	
 	// draw the element name
-	font = @{NSFontAttributeName: [UIFont boldSystemFontOfSize:36]};
-	stringSize = [self.element.name sizeWithAttributes:font];
+	font = [UIFont boldSystemFontOfSize:36];
+	stringSize = [self.element.name sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width)/2,50);
-	[self.element.name drawAtPoint:point withAttributes:font];
+	[self.element.name drawAtPoint:point withFont:font];
 	
 	float verticalStartingPoint = 95;
 	
 	// draw the element weight
-	font = @{NSFontAttributeName: [UIFont boldSystemFontOfSize:14]};
+	font = [UIFont boldSystemFontOfSize:14];
 	NSString *atomicWeightString = [NSString stringWithFormat:@"Atomic Weight: %@", self.element.atomicWeight];
-	stringSize = [atomicWeightString sizeWithAttributes:font];
+	stringSize = [atomicWeightString sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint);
-	[atomicWeightString drawAtPoint:point withAttributes:font];
+	[atomicWeightString drawAtPoint:point withFont:font];
 	
 	// draw the element state
+	font = [UIFont boldSystemFontOfSize:14];
 	NSString *stateString=[NSString stringWithFormat:@"State: %@", self.element.state];
-	stringSize = [stateString sizeWithAttributes:font];
+	stringSize = [stateString sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint+20);
-	[stateString drawAtPoint:point withAttributes:font];
+	[stateString drawAtPoint:point withFont:font];
 	
 	// draw the element period
+	font = [UIFont boldSystemFontOfSize:14];
 	NSString *periodString = [NSString stringWithFormat:@"Period: %@", self.element.period];
-	stringSize = [periodString sizeWithAttributes:font];
+	stringSize = [periodString sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint+40);
-	[periodString drawAtPoint:point withAttributes:font];
+	[periodString drawAtPoint:point withFont:font];
 
 	// draw the element group
+	font = [UIFont boldSystemFontOfSize:14];
 	NSString *groupString = [NSString stringWithFormat:@"Group: %@", self.element.group];
-	stringSize = [groupString sizeWithAttributes:font];
+	stringSize = [groupString sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint+60);
-	[groupString drawAtPoint:point withAttributes:font];
+	[groupString drawAtPoint:point withFont:font];
 	
 	// draw the discovery year
 	NSString *discoveryYearString = [NSString stringWithFormat:@"Discovered: %@", self.element.discoveryYear];
-	stringSize = [discoveryYearString sizeWithAttributes:font];
+	stringSize = [discoveryYearString sizeWithFont:font];
 	point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint+80);
-	[discoveryYearString drawAtPoint:point withAttributes:font];
+	[discoveryYearString drawAtPoint:point withFont:font];
     
+    // draw the Electronegativity
     NSString *ElectronegativityString = [NSString stringWithFormat:@"Electronegativity: %@", self.element.Electronegativity];
-    stringSize = [ElectronegativityString sizeWithAttributes:font];
+    stringSize = [ElectronegativityString sizeWithFont:font];
     point = CGPointMake((self.bounds.size.width-stringSize.width)/2, verticalStartingPoint+100);
-    [ElectronegativityString drawAtPoint:point withAttributes:font];
+    [ElectronegativityString drawAtPoint:point withFont:font];
 }
 
 

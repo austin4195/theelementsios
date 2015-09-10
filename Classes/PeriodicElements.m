@@ -1,11 +1,49 @@
 /*
-Copyright (C) 2015 Apple Inc. All Rights Reserved.
-See LICENSE.txt for this sample’s licensing information
-
-Abstract:
-Encapsulates the collection of elements and returns them in presorted states.
-*/
-
+     File: PeriodicElements.m
+ Abstract: Encapsulates the collection of elements and returns them in presorted states.
+  Version: 1.12
+ 
+ Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
+ Inc. ("Apple") in consideration of your agreement to the following
+ terms, and your use, installation, modification or redistribution of
+ this Apple software constitutes acceptance of these terms.  If you do
+ not agree with these terms, please do not use, install, modify or
+ redistribute this Apple software.
+ 
+ In consideration of your agreement to abide by the following terms, and
+ subject to these terms, Apple grants you a personal, non-exclusive
+ license, under Apple's copyrights in this original Apple software (the
+ "Apple Software"), to use, reproduce, modify and redistribute the Apple
+ Software, with or without modifications, in source and/or binary forms;
+ provided that if you redistribute the Apple Software in its entirety and
+ without modifications, you must retain this notice and the following
+ text and disclaimers in all such redistributions of the Apple Software.
+ Neither the name, trademarks, service marks or logos of Apple Inc. may
+ be used to endorse or promote products derived from the Apple Software
+ without specific prior written permission from Apple.  Except as
+ expressly stated in this notice, no other rights or licenses, express or
+ implied, are granted by Apple herein, including but not limited to any
+ patent rights that may be infringed by your derivative works or by other
+ works in which the Apple Software may be incorporated.
+ 
+ The Apple Software is provided by Apple on an "AS IS" basis.  APPLE
+ MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
+ THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND
+ OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
+ 
+ IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL
+ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION,
+ MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED
+ AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE),
+ STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+ 
+ Copyright (C) 2013 Apple Inc. All Rights Reserved.
+ 
+ */
 
 #import "PeriodicElements.h"
 #import "AtomicElement.h"
@@ -38,7 +76,7 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 }
 
 // setup the data collection
-- (instancetype) init {
+- init {
 	if (self = [super init]) {
 		[self setupElementsArray];
 	}
@@ -58,10 +96,10 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 	self.nameIndexesDictionary = [NSMutableDictionary dictionary];
 
 	// create empty array entries in the states Dictionary or each physical state
-	(self.statesDictionary)[@"Solid"] = [NSMutableArray array];
-	(self.statesDictionary)[@"Liquid"] = [NSMutableArray array];
-	(self.statesDictionary)[@"Gas"] = [NSMutableArray array];
-	(self.statesDictionary)[@"Artificial"] = [NSMutableArray array];
+	[self.statesDictionary setObject:[NSMutableArray array] forKey:@"Solid"];
+	[self.statesDictionary setObject:[NSMutableArray array] forKey:@"Liquid"];
+	[self.statesDictionary setObject:[NSMutableArray array] forKey:@"Gas"];
+	[self.statesDictionary setObject:[NSMutableArray array] forKey:@"Artificial"];
 	
 	// read the element data from the plist
 	NSString *thePath = [[NSBundle mainBundle]  pathForResource:@"Elements" ofType:@"plist"];
@@ -74,10 +112,10 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 		AtomicElement *anElement = [[AtomicElement alloc] initWithDictionary:eachElement];
 		
 		// store that item in the elements dictionary with the name as the key
-		(self.elementsDictionary)[anElement.name] = anElement;
+		[self.elementsDictionary setObject:anElement forKey:anElement.name];
 		
 		// add that element to the appropriate array in the physical state dictionary 
-		[(self.statesDictionary)[anElement.state] addObject:anElement];
+		[[self.statesDictionary objectForKey:anElement.state] addObject:anElement];
 		
 		// get the element's initial letter
 		NSString *firstLetter = [anElement.name substringToIndex:1];
@@ -92,14 +130,14 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
             [existingArray addObject:anElement];
 		} else {
 			NSMutableArray *tempArray = [NSMutableArray array];
-			(self.nameIndexesDictionary)[firstLetter] = tempArray;
+			[self.nameIndexesDictionary setObject:tempArray forKey:firstLetter];
 			[tempArray addObject:anElement];
 		}
 	}
 	
 	// create the dictionary containing the possible element states
 	// and presort the states data
-	self.elementPhysicalStatesArray = @[@"Solid", @"Liquid", @"Gas", @"Artificial"];
+	self.elementPhysicalStatesArray = [NSArray arrayWithObjects:@"Solid", @"Liquid", @"Gas", @"Artificial", nil];
 	[self presortElementsByPhysicalState];
 	
 	// presort the dictionaries now
@@ -114,7 +152,7 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 // return the array of elements for the requested physical state
 - (NSArray *)elementsWithPhysicalState:(NSString *)aState {
     
-	return (self.statesDictionary)[aState];
+	return [self.statesDictionary objectForKey:aState];
 }
 
 // presort each of the arrays for the physical states
@@ -131,14 +169,14 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 																   ascending:YES
 																	selector:@selector(localizedCaseInsensitiveCompare:)] ;
 	
-	NSArray *descriptors = @[nameDescriptor];
-	[(self.statesDictionary)[state] sortUsingDescriptors:descriptors];
+	NSArray *descriptors = [NSArray arrayWithObject:nameDescriptor];
+	[[self.statesDictionary objectForKey:state] sortUsingDescriptors:descriptors];
 }
 
 // return an array of elements for an initial letter (ie A, B, C, ...)
 - (NSArray *)elementsWithInitialLetter:(NSString*)aKey {
     
-	return (self.nameIndexesDictionary)[aKey];
+	return [self.nameIndexesDictionary objectForKey:aKey];
 }
 
 // presort the name index arrays so the elements are in the correct order
@@ -156,8 +194,8 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 																   ascending:YES
 																	selector:@selector(localizedCaseInsensitiveCompare:)] ;
 	
-	NSArray *descriptors = @[nameDescriptor];
-	[(self.nameIndexesDictionary)[aKey] sortUsingDescriptors:descriptors];
+	NSArray *descriptors = [NSArray arrayWithObject:nameDescriptor];
+	[[self.nameIndexesDictionary objectForKey:aKey] sortUsingDescriptors:descriptors];
 }
 
 // presort the elementsSortedByNumber array
@@ -167,7 +205,7 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 																   ascending:YES
 																	selector:@selector(compare:)] ;
 	
-	NSArray *descriptors = @[nameDescriptor];
+	NSArray *descriptors = [NSArray arrayWithObject:nameDescriptor];
 	NSArray *sortedElements = [[self.elementsDictionary allValues] sortedArrayUsingDescriptors:descriptors];
 	return sortedElements;
 }
@@ -179,7 +217,7 @@ static PeriodicElements *sharedPeriodicElementsInstance = nil;
 																   ascending:YES
 																	selector:@selector(localizedCaseInsensitiveCompare:)] ;
 	
-	NSArray *descriptors = @[symbolDescriptor];
+	NSArray *descriptors = [NSArray arrayWithObject:symbolDescriptor];
 	NSArray *sortedElements = [[self.elementsDictionary allValues] sortedArrayUsingDescriptors:descriptors];
 	return sortedElements;
 }
