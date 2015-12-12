@@ -29,6 +29,7 @@
 		C8DE42850D581B7B00AFE181 /* ElementsSortedByNameDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE427B0D581B7B00AFE181 /* ElementsSortedByNameDataSource.m */; };
 		C8DE42860D581B7B00AFE181 /* PeriodicElements.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DE427D0D581B7B00AFE181 /* PeriodicElements.m */; };
 		C8E2ACA60D5B7C950056EE5C /* ElementsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E2ACA50D5B7C950056EE5C /* ElementsTableViewController.m */; };
+		DB31B8F91C1BB3D6005A34EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB31B8F81C1BB3D6005A34EC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		C8DE427D0D581B7B00AFE181 /* PeriodicElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodicElements.m; sourceTree = "<group>"; };
 		C8E2ACA40D5B7C950056EE5C /* ElementsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementsTableViewController.h; sourceTree = "<group>"; };
 		C8E2ACA50D5B7C950056EE5C /* ElementsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementsTableViewController.m; sourceTree = "<group>"; };
+		DB31B8F81C1BB3D6005A34EC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DB31B8F81C1BB3D6005A34EC /* LaunchScreen.storyboard */,
 				049F12421B7178D6007EC6E0 /* Readme.md */,
 				040D7E291B727DB400AB1EEF /* ApplicationFlow.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -316,6 +319,7 @@
 				C8657C240D59017B00CB6FC9 /* Elements.plist in Resources */,
 				049F123F1B717749007EC6E0 /* LaunchScreen.xib in Resources */,
 				049F12411B717758007EC6E0 /* Images.xcassets in Resources */,
+				DB31B8F91C1BB3D6005A34EC /* LaunchScreen.storyboard in Resources */,
 				535A1E6016CEA30F00B7A289 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +388,7 @@
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.austin4195.;
 				PRODUCT_NAME = TheElements;
 				SDKROOT = iphoneos;
@@ -408,7 +412,7 @@
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.austin4195.;
 				PRODUCT_NAME = TheElements;
 				PROVISIONING_PROFILE = "";
