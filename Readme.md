@@ -1,5 +1,6 @@
 # TheElements
 
+[![Build Status](https://travis-ci.org/austin4195/theelementsios.svg?branch=master)](https://travis-ci.org/austin4195/theelementsios)
 
 ## DESCRIPTION
 + TheElements is a sample application that provides access to the data contained in the
