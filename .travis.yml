@@ -1,2 +1,5 @@
 language: objective-c
 osx_image: xcode7.3
+xcode_project: TheElements.xcodeproj
+xcode_scheme: TheElements
+xcode_sdk: iphonesimuator9.3
